@@ -1,4 +1,8 @@
 GET http://localhost:3000/schools
-
 ### post show
-GET http://localhost:3000/schools
+GET http://localhost:3000/schools/1.json
+Content-Type: application/json
+
+{
+  "name": "HENRY STREET SCHOOL FOR INTERNATIONAL STUDIES"
+}

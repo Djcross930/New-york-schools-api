@@ -1,0 +1,4 @@
+{
+  name: @school[0]["school_name"],
+  difference: (@school[0]["sat_math_avg_score"].to_i - @school[0]["sat_writing_avg_score"].to_i)
+}

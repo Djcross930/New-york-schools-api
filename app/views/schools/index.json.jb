@@ -1,0 +1,6 @@
+@schools.map do |school|
+  {
+    dbn: school.dbn,
+    url: school_url(school, format: :json)
+  }
+end
