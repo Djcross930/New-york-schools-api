@@ -1,7 +1,7 @@
 class SchoolsController < ApplicationController
   require 'http'
   def index
-    render json: {message: "Sam's message 1!"}
-
+    schools = HTTP.get("https://data.cityofnewyork.us/resource/f9bf-2cp4.json").parse
+    render json: schools.as_json
   end
 end
