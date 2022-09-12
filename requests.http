@@ -1,1 +1,4 @@
 GET http://localhost:3000/schools
+
+### post show
+GET http://localhost:3000/schools
